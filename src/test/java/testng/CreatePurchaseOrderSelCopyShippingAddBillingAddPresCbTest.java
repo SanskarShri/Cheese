@@ -19,12 +19,10 @@ public class CreatePurchaseOrderSelCopyShippingAddBillingAddPresCbTest extends B
 	{
 		//TC-30
 
-        //remove changes and pulled from master
-		
 		//To get Random number
+		
 		int randNum=jLib.getRandomNumber();
-		//Hello
-		//Let'see
+
 		//Fetching the data from excel file
 		String filePath2=IpathConstants.puchaseOrderFilePath;
 		
