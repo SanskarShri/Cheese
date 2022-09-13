@@ -20,6 +20,7 @@ public class CreatePurchaseOrderSelCopyShippingAddBillingAddPresCbTest extends B
 		//TC-30
 
 		//To get Random number
+		//Commenting the line
 		
 		int randNum=jLib.getRandomNumber();
 
