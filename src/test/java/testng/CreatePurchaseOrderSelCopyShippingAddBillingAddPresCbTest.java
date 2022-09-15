@@ -20,7 +20,7 @@ public class CreatePurchaseOrderSelCopyShippingAddBillingAddPresCbTest extends B
 		//TC-30
 
 		//To get Random number
-		//Pulling check
+		//Checking for push
 		int randNum=jLib.getRandomNumber();
 
 		//Fetching the data from excel file
