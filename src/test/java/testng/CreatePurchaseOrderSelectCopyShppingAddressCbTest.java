@@ -21,7 +21,7 @@ public class CreatePurchaseOrderSelectCopyShppingAddressCbTest extends BaseClass
 	public void methodCreatePurchaseOrderSelectCopyShppingAddressCrossBrowserTest() throws Throwable
 	{
 		//TC-28
-		
+		//Checking for push
 		
 		//To get Random number
 		int randNum=jLib.getRandomNumber();

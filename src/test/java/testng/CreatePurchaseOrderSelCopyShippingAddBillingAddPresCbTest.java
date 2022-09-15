@@ -21,10 +21,7 @@ public class CreatePurchaseOrderSelCopyShippingAddBillingAddPresCbTest extends B
 
 		//To get Random number
 
-		//Checking for push
-
-		//Commenting the line
-		
+		//Checking for push 2
 
 		int randNum=jLib.getRandomNumber();
 
