@@ -22,6 +22,7 @@ public class CreatePurchaseOrderSelectCopyShppingAddressCbTest extends BaseClass
 	{
 		//TC-28
 		
+		//Change 2
 		
 		//To get Random number
 		int randNum=jLib.getRandomNumber();
