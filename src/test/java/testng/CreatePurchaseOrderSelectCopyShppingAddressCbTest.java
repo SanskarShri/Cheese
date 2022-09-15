@@ -24,9 +24,8 @@ public class CreatePurchaseOrderSelectCopyShppingAddressCbTest extends BaseClass
 
 		//Checking for push
 
-		//Change 2
+		//Changes 2
 
-		
 		//To get Random number
 		int randNum=jLib.getRandomNumber();
 		
