@@ -18,14 +18,9 @@ public class CreatePurchaseOrderSelCopyShippingAddBillingAddPresCbTest extends B
 	public void createMethodPurchaseOrderSelCopyShippingAddBillingAddPresCbTest() throws Throwable
 	{
 		//TC-30
-
-		//To get Random number
-
-		//Checking for push
-
-		//Commenting the line
+	        
+		//Changes 1
 		
-
 		int randNum=jLib.getRandomNumber();
 
 		//Fetching the data from excel file
