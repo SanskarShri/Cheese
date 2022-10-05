@@ -1,12 +1,10 @@
 package testng;
 
 import java.io.IOException;
-
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
 import com.crm.SDET35.genericutilities.BaseClass;
 import com.crm.SDET35.genericutilities.IpathConstants;
 import com.crm.objectRepository.CreateNewPurchaseOrderPage;
@@ -22,13 +20,8 @@ public class CreatePurchaseOrderSelectCopyShppingAddressCbTest extends BaseClass
 	{
 		//TC-28
 
-		//Checking for push
-
-		//Changes 2
-
 		//To get Random number
 		int randNum=jLib.getRandomNumber();
-		
 		
 		//Fetching the data from excel file
 		String filePath2=IpathConstants.puchaseOrderFilePath;
@@ -36,13 +29,10 @@ public class CreatePurchaseOrderSelectCopyShppingAddressCbTest extends BaseClass
 		String tN=eLib.getExcelCellValue(filePath2,"PurchaseOrder",1,1);
 		String firstBillAddress=eLib.getExcelCellValue(filePath2,"PurchaseOrder",6,0);
 		String shipAdd=eLib.getExcelCellValue(filePath2,"PurchaseOrder",6,1);
-        String prod=eLib.getExcelCellValue(filePath2,"PurchaseOrder",1,3);
-		
+                String prod=eLib.getExcelCellValue(filePath2,"PurchaseOrder",1,3);
 		String value=eLib.getIntegerValueFromExcelCell(filePath2, "PurchaseOrder", 1, 2);
 		String trackingNumber=tN+randNum;
-			
-			
-			
+				
 		//Moving the mouse cursor to more button and selecting purchase order
 		HomePage hPage=new HomePage(driver);
 		hPage.selectingPurchaseOrder(driver);
