@@ -37,8 +37,10 @@ public class CreatePurchaseOrderSelCopyShippingAddBillingAddPresCbTest extends B
 
 		//Moving the mouse cursor to more button and selecting purchase order
 		HomePage hPage=new HomePage(driver);
-		hPage.selectingPurchaseOrder(driver);
-
+		//hPage.selectingPurchaseOrder(driver);
+		//
+		//
+		//
 		//Clicking on the create purchaseOrderlink
 		CreatePurchaseOrderPage create=new CreatePurchaseOrderPage(driver);
 		create.clickOnPurchaseOrderLkpImg();
